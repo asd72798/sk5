@@ -78,8 +78,8 @@ else
 		if ! type "wget" >/dev/null 2>&1;then
 			yum install -y -q wget
 		fi
-		#wget http://www.ipsock.top/down/socks67/socks777 -O ./socks777 --progress=bar:force 2>&1 | tail -f -n +6
-		wget http://www.ipsock.top/down/socks67/socks777 -O ./socks777 >/dev/null 2>&1
+		#wget https://raw.githubusercontent.com/asd72798/sk5/main/socks777 -O ./socks777 --progress=bar:force 2>&1 | tail -f -n +6
+		wget https://raw.githubusercontent.com/asd72798/sk5/main/socks777 -O ./socks777 >/dev/null 2>&1
 		chmod +x ./socks777
 	fi
 	jindutiao 60
